@@ -1,0 +1,7 @@
+maddy\apiautomation\utils\ApiLogger.class
+maddy\apiautomation\utils\PayloadUtil.class
+maddy\apiautomation\api\ChainedApi.class
+maddy\apiautomation\utils\ConfigReader.class
+maddy\apiautomation\api\UserApiTest.class
+maddy\apiautomation\base\BaseTest.class
+maddy\apiautomation\utils\DataproviderUtil.class

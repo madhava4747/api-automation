@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-26T15:54:42 IST" name="API Automation Suite" finished-at="2025-12-26T15:54:48 IST" duration-ms="6019">
+    <groups>
+    </groups>
+    <test started-at="2025-12-26T15:54:42 IST" name="API Tests" finished-at="2025-12-26T15:54:48 IST" duration-ms="6019">
+      <class name="maddy.apiautomation.api.UserApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:maddy.apiautomation.api.UserApiTest@7ea9e1e2]" started-at="2025-12-26T15:54:42 IST" name="setup" finished-at="2025-12-26T15:54:43 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteUser()[pri:0, instance:maddy.apiautomation.api.UserApiTest@7ea9e1e2]" started-at="2025-12-26T15:54:43 IST" name="deleteUser" description="Create a new user using DELETE /users" finished-at="2025-12-26T15:54:45 IST" duration-ms="2249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+        <test-method signature="getUser()[pri:0, instance:maddy.apiautomation.api.UserApiTest@7ea9e1e2]" started-at="2025-12-26T15:54:45 IST" name="getUser" description="Create a new user using GET /users" finished-at="2025-12-26T15:54:46 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="postUser()[pri:0, instance:maddy.apiautomation.api.UserApiTest@7ea9e1e2]" started-at="2025-12-26T15:54:46 IST" name="postUser" description="Create a new user using POST /users" finished-at="2025-12-26T15:54:46 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+        <test-method signature="putUser()[pri:0, instance:maddy.apiautomation.api.UserApiTest@7ea9e1e2]" started-at="2025-12-26T15:54:46 IST" name="putUser" description="Create a new user using PUT /users" finished-at="2025-12-26T15:54:47 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUser -->
+      </class> <!-- maddy.apiautomation.api.UserApiTest -->
+      <class name="maddy.apiautomation.api.ChainedApi">
+        <test-method is-config="true" signature="setup()[pri:0, instance:maddy.apiautomation.api.ChainedApi@14555e0a]" started-at="2025-12-26T15:54:47 IST" name="setup" finished-at="2025-12-26T15:54:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser()[pri:0, instance:maddy.apiautomation.api.ChainedApi@14555e0a]" started-at="2025-12-26T15:54:47 IST" name="createUser" description="Create a new user using POST /users" finished-at="2025-12-26T15:54:47 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="getUser()[pri:0, instance:maddy.apiautomation.api.ChainedApi@14555e0a]" started-at="2025-12-26T15:54:47 IST" name="getUser" description="Create a new user using GET /users" finished-at="2025-12-26T15:54:47 IST" depends-on-methods="maddy.apiautomation.api.ChainedApi.createUser" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="putUser()[pri:0, instance:maddy.apiautomation.api.ChainedApi@14555e0a]" started-at="2025-12-26T15:54:47 IST" name="putUser" description="Create a new user using PUT /users" finished-at="2025-12-26T15:54:48 IST" depends-on-methods="maddy.apiautomation.api.ChainedApi.createUser" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUser -->
+      </class> <!-- maddy.apiautomation.api.ChainedApi -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API Automation Suite -->
+</testng-results>

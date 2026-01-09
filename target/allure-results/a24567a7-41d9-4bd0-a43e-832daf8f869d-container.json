@@ -1,0 +1,1 @@
+{"uuid":"a24567a7-41d9-4bd0-a43e-832daf8f869d","name":"API Automation Suite","children":["ff3704da-6964-4938-b793-f73461e113d8"],"befores":[{"name":"setupAllureEnvironment","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1767935030253,"stop":1767935030266}],"afters":[],"start":1767935030227,"stop":1767935043087}

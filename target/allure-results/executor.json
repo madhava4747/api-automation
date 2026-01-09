@@ -1,0 +1,7 @@
+{
+  "name": "Local Maven Execution",
+  "type": "maven",
+  "buildName": "API Automation Build",
+  "buildOrder": 1,
+  "reportName": "Rest-Assured API Test Report"
+}
