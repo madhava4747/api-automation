@@ -2,8 +2,8 @@
 <suite name="API Automation Suite">
     <test name="API Tests">
         <classes>
-            <class name="maddy.apiautomation.api.UserApiTest"/>
-            <class name="maddy.apiautomation.api.ChainedApi"/>
+            <class name="api.apiautomation.api.UserApiTest"/>
+            <class name="api.apiautomation.api.ChainedApi"/>
         </classes>
     </test>
 </suite>
